@@ -12,9 +12,11 @@
 Немного руководств к действию:
 1. Для миграций:
  alembic init migrations
+ 
  alembic revision --autogenerate -m "Message"
 2. Для запуска приложения:
  uvicorn src.main:app -reload
+ 
 3*. Если документацию хотите открыть, то добавляется к localhost в адрессной строке "/docs"
 
 
