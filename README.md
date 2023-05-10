@@ -14,6 +14,7 @@
  alembic init migrations
  
  alembic revision --autogenerate -m "Message"
+ 
 2. Для запуска приложения:
  uvicorn src.main:app -reload
  
